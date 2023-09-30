@@ -36,3 +36,4 @@ Admin Login
 //To delete the user from the DB
 ### "/deleteBook"
 //To delete the book from the DB
+1(file:///C:/Users/sudha/OneDrive/Pictures/WhatsApp%20Image%202023-06-26%20at%2009.48.02.jpg)
