@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="date" type="date"/>
+    <input type="button" onclick="get()"/>
+    <script>
+        function get(){
+            var date = document.getElementById("date").value
+
+            var a = new Date(date);
+            var b = new Date();
+            var c = new Date();
+            c.setDate(b.getDate() - a.getDate());
+            console.log(c);
+        }
+    </script>
+</body>
+</html>

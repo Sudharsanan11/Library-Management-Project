@@ -1,0 +1,94 @@
+.addbook{
+    background-image: linear-gradient(to right,white,grey);
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.addbook .card{
+    min-width: 40%;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 10px 10px #888888;
+}
+
+.addbook input{
+    width: 80%;
+    border: none;
+    border: 1px solid rgb(182, 175, 175);
+    background-color: transparent;
+    outline: none;
+}
+.addbook .addbtn{
+    border: none;
+    background-image: linear-gradient(to right, white,grey);
+    font-weight: 600;
+    color: white;
+}
+.showbook
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showbook table,th,td{
+    border: 1px solid #888888;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+.showbook tr:nth-child(even){
+    background-color:#e9dcdc;
+}
+.showbook tr:hover{
+    background-color: #e9dcdc;
+}
+
+.showbook th {
+    background-color: rgb(139, 133, 133);
+    color: white;
+  }
+.showbook .updatebtn{
+   background-color: cadetblue;
+   color: white;
+}
+.showbook .deletebtn{
+    background-color: rgb(208, 84, 84);
+    color: white;
+}
+
+.updatebook{
+    background-image: linear-gradient(to right,white,grey);
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.updatebook .card{
+    min-width: 40%;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 10px 10px #888888;
+}
+.updatebook input{
+    width: 80%;
+    border: none;
+    border: 1px solid rgb(182, 175, 175);
+    background-color: transparent;
+    outline: none;
+}
+.updatebook .updatebtn{
+    border: none;
+    background-image: linear-gradient(to right, white,grey);
+    font-weight: 600;
+    color: white;
+}

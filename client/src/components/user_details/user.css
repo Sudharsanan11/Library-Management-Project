@@ -1,0 +1,89 @@
+.adduser{
+    background-image: linear-gradient(to right,white,grey);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.adduser .card{
+    min-width: 40%;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 10px 10px #888888;
+}
+.adduser input{
+    width: 80%;
+    border: none;
+    border: 1px solid rgb(182, 175, 175);
+    background-color: transparent;
+    outline: none;
+}
+
+.adduser .addbtn{
+    border: none;
+    background-image: linear-gradient(to right, white,grey);
+    font-weight: 600;
+    color: white;
+}
+.showuser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showuser table,th,td{
+    border: 1px solid #888888;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+.showuser tr:nth-child(even){
+    background-color:#e9dcdc;
+}
+.showuser tr:hover{
+    background-color: #e9dcdc;
+}
+
+.showuser th {
+    background-color: rgb(139, 133, 133);
+    color: white;
+  }
+.showuser .updatebtn{
+   background-color: cadetblue;
+   color: white;
+}
+.showuser .deletebtn{
+    background-color: rgb(208, 84, 84);
+    color: white;
+}
+ 
+
+.updateuser{
+    background-image: linear-gradient(to right,white,grey);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.updateuser .card{
+    min-width: 40%;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 10px 10px #888888;
+}
+.updateuser input{
+    width: 80%;
+    border: none;
+    border: 1px solid rgb(182, 175, 175);
+    background-color: transparent;
+    outline: none;
+}
+.updateuser .updatebtn{
+    border: none;
+    background-image: linear-gradient(to right, white,grey);
+    font-weight: 600;
+    color: white;
+}

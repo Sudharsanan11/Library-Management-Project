@@ -1,0 +1,51 @@
+.login{
+    background-image: linear-gradient(to right,white,grey);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.login h2{
+    color: white;
+    font-weight: 600;
+}
+.login .card{
+    min-width: 40%;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 10px 10px #888888;
+}
+.login input{
+    width: 100%;
+    border: none;
+    border: 1px solid rgb(182, 175, 175);
+    background-color: transparent;
+    outline: none;
+}
+
+.login .login-btn{
+    border: none;
+    background-image: linear-gradient(to right, white,grey);
+    font-weight: 600;
+    color: white;
+}
+
+.admin{
+    background-image: linear-gradient(to right,white,grey);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.admin .card{
+    width: 150%;
+    background-color: transparent;
+    box-shadow: 10px 10px #888888;
+    margin-left: -30px;
+    text-align: center;
+}
+.admin .btn{
+    width: 100%;
+}
